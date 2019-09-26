@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <menu>
+    	<add id="Chanikyahub_CustomMenu::Custom_Menu" title="Custom Menu" module="Chanikyahub_CustomMenu" sortOrder="80" resource="Chanikyahub_CustomMenu::Custom_Menu" />    	
+    	
+    	
+    	<add id="Chanikyahub_CustomMenu::Menu1" title="Menu1" module="Chanikyahub_CustomMenu" parent="Chanikyahub_CustomMenu::Custom_Menu" sortOrder="10" action="adminhtml" resource="Chanikyahub_CustomMenu::Custom_Menu"  />
+
+    	<add id="Chanikyahub_CustomMenu::Menu2" title="Menu2" module="Chanikyahub_CustomMenu" sortOrder="20" resource="Chanikyahub_CustomMenu::Custom_Menu" parent="Chanikyahub_CustomMenu::Custom_Menu" action="adminhtml" />
+    	<add id="Chanikyahub_CustomMenu::Menu3" title="Menu3" module="Chanikyahub_CustomMenu" sortOrder="30" resource="Chanikyahub_CustomMenu::Custom_Menu" parent="Chanikyahub_CustomMenu::Custom_Menu" action="adminhtml" />
+    </menu>
+    
+</config>
